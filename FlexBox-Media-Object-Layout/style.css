@@ -1,0 +1,33 @@
+ body {
+            display: flex; 
+            justify-content: center;
+            align-items: center; 
+            height: 100vh;
+        }
+        .media {
+            display: flex;
+            align-items: flex-start;
+            background: #b6b4ae;
+            padding: 1em;
+            border-radius: 3px;
+            max-width: 24em;
+        }
+        .media-object {
+            margin-right: 1em;
+            width: 80px; /* Adjust image size */
+            height: 80px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .media-body {
+            flex: 1;
+        }
+        .media-heading {
+            margin: 0 0 .5em;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        p {
+            font-size: 0.9em;
+            color: #333;
+        }
